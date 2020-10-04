@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json testing</title>
+    <style>
+        h1{
+            text-align:center;
+        }
+        .flexbox{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .item{
+            width: 23%;
+        }
+        img{
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50px;
+        }
+        h2{
+            text-align: center;
+        }
+        @media (max-width:768px){
+            .flexbox{
+                flex-direction: column;
+            }
+            .item{
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Patrons</h1>
+
+    <div class="flexbox">
+       
+            <div class="item item1" onclick="test(this)" id="Administrator">
+                <img src="./post-2.jpg" alt="">
+                <h2>Administrator</h2>
+            </div>
+      
+            <div class="item item2" onclick="test(this)" id="Data Analyst">
+                <img src="./post-4.png" alt="">
+                <h2>Data Analyst</h2>
+            </div>
+           <div class="item item3" onclick="test(this)" id="Operator">
+                <img src="./post-5.png" alt="">
+                <h2>Operator</h2>
+            </div>
+            <div class="item item4" onclick="test(this)" id="System Manager">
+                <img src="./blog2.png" alt="">
+                <h2>System Manager</h2>
+            </div>
+      
+    </div>
+    <script src="./main.js"></script>
+
+    
+
+</body>
+</html>
