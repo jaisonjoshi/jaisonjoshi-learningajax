@@ -1,19 +1,19 @@
 [
     {
             "name": "Administrator",
-            "src" : "post-2.jpg"
+            "src" : "images/post-2.jpg"
     },
     {
             "name": "Operator",
-            "src" : "post-5.png"
+            "src" : "images/post-5.png"
     },
     {
             "name": "Data Analyst",
-            "src" : "post-4.png"
+            "src" : "images/post-4.png"
     },
     {
             "name": "System Manager",
-            "src" : "blog2.png"
+            "src" : "images/blog2.png"
     }
 
 ]
