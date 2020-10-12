@@ -11,7 +11,7 @@ function getcard(){
     var xhr = new XMLHttpRequest();
     xhr.open('GET','data.json');
     xhr.onreadystatechange = function(){
-        if(xhr.readyState === 4 && xhr.status === 200){
+        if(xhr.readyState === 5 && xhr.status === 300){
             var resp = JSON.parse(xhr.responseText);
             callback(resp);
         }
