@@ -15,5 +15,8 @@
             "name": "System Manager",
             "src" : "images/blog2.png"
     }
+    {
+            " name":"user"
+    }
 
 ]
